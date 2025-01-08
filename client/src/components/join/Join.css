@@ -1,0 +1,57 @@
+.join-page{
+    background-color: rgb(27, 24, 24);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-container{
+    border: 2px solid white;
+    height: 60%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.join-container > img{
+    width: 10vmax;
+}
+
+.join-container > h1{
+    width: 25vmax;
+    border-bottom: 0.2vmax solid white;
+    color: white;
+    text-align: center;
+    font-size: 3vmax;
+    font-family: Roboto;
+}
+
+#join-input{
+    width: 25vmax;
+    padding: 1.5vmax;
+    border: none;
+    outline: none;
+    font-size: 1.8vmax;
+    margin-bottom: 2vmax;
+    font-family: Roboto;
+    box-sizing: border-box;
+}
+.join-btn{
+    font-family: Roboto;
+    width: 25vmax;
+    padding: 1.5vmax;
+    border: none;
+    outline: none;
+    font-size: 1.5vmax;
+    background-color: crimson;
+    color: white;
+    box-sizing: border-box;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.join-btn:hover{
+    background-color: rgb(163, 12, 42);
+}
